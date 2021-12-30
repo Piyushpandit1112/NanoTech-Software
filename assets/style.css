@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Hindi Siliguri',sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+}
+
+.nav-link::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(230, 155, 42) !important;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-link:hover::after{
+    width: 100%;
+}
+
