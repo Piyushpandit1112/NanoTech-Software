@@ -6,12 +6,51 @@
     box-sizing: border-box;
 }
 
+.logo{
+    margin: -8px 1px;
+    padding: 0;
+}
+
+/* .logo:hover{
+    border-bottom: 1px solid red;
+    text-decoration: underline;
+} */
+
+
+/* .logo::after{
+    content: '';
+    width: 0%;
+    position:relative;
+    left: -1px;
+    height: 2px;
+    background: red !important;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.logo:hover::after{
+    width: 55px;
+}
+
+.logoimg{
+    padding: 0;
+    margin: 0;
+} */
+
 html{
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.5;
     text-rendering: optimizeLegibility;
     scroll-behavior: smooth;
+}
+
+.tn{
+    margin: -4px 0px;
+}
+.naavv{
+    height:51px;
 }
 
 .nav-link::after{
@@ -28,3 +67,23 @@ html{
     width: 100%;
 }
 
+.team{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x)); */
+    padding-left: 10%;
+}
+
+.teamtext{
+    font-weight: 1.5rem;
+    font-size: 2rem;
+    margin-bottom: 8%;
+}
+
+h4{
+    margin-top: 5%;
+}
